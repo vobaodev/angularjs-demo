@@ -1,7 +1,5 @@
 (function () {
-    'use strict';
-    angular.module('myFistApp', [])
-        .controller('myFirstController', function ($scope) {
-            @$scope.name = "Bao Vo";
-        });
-})();
+    angular.module("myFirstApplication", []).controller("myFirstController", function ($scope) {
+        $scope.name = "Vo Bao";
+    });
+});
